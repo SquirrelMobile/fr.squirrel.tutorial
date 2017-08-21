@@ -5,7 +5,7 @@
 You can test this widget on this link https://github.com/SquirrelMobile/titanium-template-tabgroup
 
 ### Screenshot
-![Screenshot](https://github.com/SquirrelMobile/fr.squirrel.tutorial/blob/master/animation.gif?raw=true)
+![Screenshot](http://www.squirrel.fr/animation.gif)
 
 ## Use it
 
