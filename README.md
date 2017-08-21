@@ -4,6 +4,8 @@
 ## Demonstration
 You can test this widget on this link https://github.com/SquirrelMobile/titanium-template-tabgroup
 
+
+(https://github.com/SquirrelMobile/fr.squirrel.tutorial/blob/master/animation.gif?raw=true)
 ## Use it
 
 **index.js**
@@ -21,10 +23,15 @@ var tutorial = Alloy.createWidget("fr.squirrel.tutorial",{
     tutorial.close();
   }
 });
+```
 
+
+```javascript
 tutorial.setPages([
   {
-    imageProperties : "/images/photoTutorial1.jpg",
+    page : {
+      image : "/images/photoTutorial1.jpg"
+    },
     title : {
       text : "Lorem ipsum dolor.",
     },
@@ -36,7 +43,9 @@ tutorial.setPages([
     }
   },
   {
-    imageProperties : "/images/photoTutorial2.jpg",
+    page : {
+      image : "/images/photoTutorial2.jpg"
+    },
     title : {
       text : "Curabitur scelerisque justo.",
     },
@@ -48,7 +57,9 @@ tutorial.setPages([
     }
   },
   {
-    imageProperties : "/images/photoTutorial3.jpg",
+    page : {
+      image : "/images/photoTutorial3.jpg"
+    },
     title : {
       text : "Cras in tincidunt eros.",
     },
@@ -70,10 +81,10 @@ setPages(argument);
 ```
 
 "argument" this argument is a collection of each page in tutorial . You can handle each data with different properties :
-* "imageProperties" : this property edit the background photo of the page
-* "title" : this property
-* "subtitle" :
-* "logo" :
+* "page" : this property edit the background photo of the page
+* "title" : this property edit the page's title
+* "subtitle" :this property edit the page's subtitle
+* "logo" :this property edit the logo
 
 
 ##c
