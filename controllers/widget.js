@@ -27,9 +27,7 @@ $.setPages = function(obj){
     // Si le parametre contient un tableau > 0
   if (obj.length > 0) {
     _.each(obj,function(page){
-      var view = Widget.createController("page",{
-        image : page.imageProperties
-      }).getView();
+      var view = Widget.createController("page",page.page).getView();
 
       // On ajoute la page sur la scrollableView
       $.scrollableView.addView(view);

@@ -3,7 +3,12 @@ var args = $.args;
 
 
 (function constructor(args){
-  
-  $.image1.applyProperties(args);
+
+  if (args.image) {
+    $.image1.applyProperties(args);
+  }
+  else {
+    $.scrollView.applyProperties(args);
+  }
 
 })(args);
