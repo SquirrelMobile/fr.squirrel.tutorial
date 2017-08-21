@@ -73,6 +73,31 @@ tutorial.setPages([
   }
 ]);
 ```
+## Initialize the widget
+
+```javascript
+var tutorial = Alloy.createWidget("fr.squirrel.tutorial",{
+  indicatorSelect : {
+    image: "/images/ellipseblue.png"
+  },
+  indicatorUnselect : {
+    image: "/images/ellipseblueinactive.png"
+  },
+  titleBtnStart: "Suivant",
+  titleBtnEnd : "Fermer",
+  success : function(e){
+    tutorial.close();
+  }
+});
+```
+
+#### Properties available:
+
+* "indicatorSelect" : this property is for edit the page indicator when is the current page.
+* "indicatorUnselect" : this property is for edit the page indicator when is not the current page.
+* "titleBtnStart" : this property is for edit the button title when the current page is not the last page.
+* "titleBtnEnd" : this property is for edit the button title when the current page is the last page.
+* "success" : Event call when we click the close button.
 
 ## Methods
 
@@ -88,4 +113,10 @@ setPages(argument);
 * "logo" :this property edit the logo
 
 
-##c
+```javascript
+close();
+```
+
+close the window
+
+## c
