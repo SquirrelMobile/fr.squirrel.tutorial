@@ -118,5 +118,3 @@ close();
 ```
 
 close the window
-
-## c
