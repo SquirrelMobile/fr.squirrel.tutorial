@@ -1,0 +1,22 @@
+<Alloy>
+	<Window id="content" >
+		<View class="containerLogo">
+
+			<ImageView id="logo"/>
+
+		</View>
+		<View class="containerDescription" >
+
+			<Label id="title1" class="white lbl"/>
+			<Label id="subtitle1" class="white lbl"/>
+
+		</View>
+		<ScrollableView id="scrollableView" onScroll="changePage" />
+		<View class="footer">
+
+			<View id="indicators" />
+			<Button id="skip" class="btn" onClick="handleClickSkip" />
+
+		</View>
+	</Window>
+</Alloy>

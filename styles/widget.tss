@@ -1,0 +1,64 @@
+"#content": {
+  backgroundColor: "transparent",
+  height: Ti.UI.FILL,
+  width:Ti.UI.FILL,
+  theme: 'Theme.AppCompat.Translucent.NoTitleBar',
+}
+
+"#scrollableView": {
+  disableBounce: true,
+  height: Ti.UI.FILL,
+  left: 0,
+  right: 0,
+}
+
+"#indicators": {
+  height: Ti.UI.SIZE,
+  width: Ti.UI.SIZE,
+  layout: "horizontal",
+  top: 0
+}
+
+".white": {
+  color: "white"
+}
+
+".containerLogo": {
+  height: "50%",
+  top: 0,
+  zIndex: 10,
+  touchEnabled: false
+}
+
+"#logo": {
+  touchEnabled: false,
+  height: Ti.UI.SIZE
+}
+
+".containerDescription": {
+  height: Ti.UI.SIZE,
+  bottom: 150,
+  zIndex: 10,
+  layout: "vertical",
+  touchEnabled: false
+}
+
+".footer": {
+  height: 125,
+  backgroundColor: "transparent",
+  bottom: 0,
+  zIndex: 10
+}
+
+".btn": {
+  title: "Suivant",
+  left: 75,
+  right: 75,
+  bottom: 25
+}
+
+".lbl": {
+  top: 5,
+  width: "90%",
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+}

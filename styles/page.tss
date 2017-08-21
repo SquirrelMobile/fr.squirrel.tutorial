@@ -1,0 +1,12 @@
+
+"#scrollView": {
+  scrollingEnabled: false,
+  width: Ti.UI.FILL,
+  /*height: Ti.UI.FILL,*/
+  backgroundColor: "black"
+}
+
+"#image1": {
+  width: Ti.UI.FILL,
+  top: 0
+}
