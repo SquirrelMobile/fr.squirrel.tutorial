@@ -41,7 +41,7 @@ $.setPages = function(obj){
 
     tabPage = obj;
     //On ouvre la window du tutorial
-    $.content.open();
+    $.content.open({ modal : true });
 
     // si les propriété "indicatorSelect" et "indicatorUnselect" sont présent alors on ajoute les paramétres de l'indicators grâce à la fonction setIndicators
     if (args.indicatorSelect && args.indicatorUnselect) {
